@@ -19,5 +19,5 @@ from goods import views as goods_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^/', include('goods.urls')),
+    url(r'^', include('goods.urls')),
 ]
